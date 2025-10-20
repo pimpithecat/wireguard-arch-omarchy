@@ -378,6 +378,17 @@ nvim ~/.config/waybar/style.css
 Add styling:
 
 ```css
+#cpu,
+#battery,
+#pulseaudio,
+#custom-vpn, /* add this! */
+#custom-omarchy,
+#custom-screenrecording-indicator,
+#custom-update {
+  min-width: 12px;
+  margin: 0 7.5px;
+}
+
 /* VPN Toggle Styling */
 #custom-vpn.active {
     color: #a6e3a1; /* Green when connected */
